@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,500,300);
+
+body {
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+	width: 750px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	background: #487bb4;
+	padding: 120px 0;
+	position: relative;
+}
+
+header img {
+	width: 108px;
+	height: 108px;
+	display: block;
+}
+
+header h1 {
+	font-size: 46px;
+	text-align: center;
+	margin: 40px 0 0 0;
+	color: #FFF;
+	font-weight: 300;
+}
+
+section {
+	_min-height: 380px;
+	padding-bottom: 80px;
+}
+section:nth-child(odd) {
+	background: #EDEDED;
+}
+
+h2 {
+	font-size: 38px;
+	font-weight: 300;
+	color: #487bb4;
+	padding: 60px 40px 40px 0px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #777;
+	width: 70%;
+}
+a {
+	color: #487bb4;
+	text-decoration: none;
+	border-bottom: 1px dotted #487bb4;
+}
+p a:hover {
+	border-bottom-style: solid;
+}
+
+#download-info {
+	padding-bottom: 30px;
+}
+
+#download {
+	color: #FFF;
+	border: none;
+	background: #487bb4;
+	width: 320px;
+	height: 52px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 52px;
+	font-size: 19px;
+	font-weight: 400;
+	display: block;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+#download:hover {
+	opacity: .93;
+}
+
+pre.prettyprint {
+	margin: 30px 0;
+	border: none !important;
+	cursor: text !important;
+	overflow: auto;
+	width: 90% !important;
+	background: #FFF;
+	font-size: 14px;
+	text-align: left;
+	line-height: 25px;
+	padding: 15px !important;
+	line-height: 25px !important;
+}
+
+.twitter-share-button {
+	margin-top: 30px;
+}
+
+#parent {
+	width: 80%;
+	height: 320px;
+	max-width: 960px;
+	background: #487bb4;
+	margin: 60px auto;
+	position: relative;
+}
+
+#child {
+	width: 50%;
+	height: 100px;
+	background: #FFF;
+}
+
+.example h1 {
+	font-size: 36px;
+	font-weight: 300;
+	text-align: center;
+	margin: 60px auto;
+	color: #487bb4;
+}
+
+#backto {
+	display: block;
+	text-align: center;
+	border: none;
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+	.wrap {
+		width: 95%;
+	}
+
+	p {
+		width: 95%;
+	}
+}
+
+@media screen and (max-device-width: 400px) {
+	.wrap {
+		width: 86.5%;
+	}
+
+	#download {
+		width: 280px;
+	}
+}
