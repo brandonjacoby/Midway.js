@@ -18,5 +18,5 @@ $(document).ready(function() {
 		midwayH;
 		midwayV;
 	});
-	
+
 });
