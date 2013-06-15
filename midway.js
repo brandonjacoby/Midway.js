@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).load(function() {
 
 	$('.centerHorizontal').css('marginLeft', - + $('.centerHorizontal').width()/2);
 	$('.centerVertical').css('marginTop', - + $('.centerVertical').height()/2);
