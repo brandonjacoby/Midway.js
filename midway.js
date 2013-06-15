@@ -15,7 +15,7 @@ function Midway() {
 	});
 }
 
-$(document).ready(function() {
+$(window).load(function() {
 	Midway();
 	$(window).on('resize', Midway);
 });
