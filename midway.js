@@ -3,12 +3,14 @@ function Midway() {
 	$('.centerVertical').css('marginTop', - + $('.centerVertical').height()/2);
 
 	$(".centerHorizontal").css({
+		'display' : 'inline',
 		'position' : 'absolute',
 		'top' : '50%',
 		'left' : '50%'
 	});
 
 	$(".centerVertical").css({
+		'display' : 'inline',
 		'position' : 'absolute',
 		'top' : '50%',
 		'left' : '50%'
