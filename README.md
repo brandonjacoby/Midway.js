@@ -22,5 +22,3 @@ Depending on if you want your element to be centered horizontally, vertically, o
 - Midway.js now works with all elements, all the time! No more pesky bugs that would cause the element to be uncentered until you resize the browser.
 - Other minor bug fixes.
 
-##Thanks for checking out Midway.js!
-
