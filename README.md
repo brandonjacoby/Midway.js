@@ -15,9 +15,12 @@ Depending on if you want your element to be centered horizontally, vertically, o
 <div class="centerHorizontal centerVertical"></div>
 ```
 
-##Todo List
+##Release Notes
 
-Allow centering function to be used on event, instead of just on load and window resize.
+###v1.1
+- Call the centering function whenever you would like, rather than just on load and resize. Simply call Midway();
+- Midway.js now works with all elements, all the time! No more pesky bugs that would cause the element to be uncentered until you resize the browser.
+- Other minor bug fixes.
 
 ##Thanks for checking out Midway.js!
 
