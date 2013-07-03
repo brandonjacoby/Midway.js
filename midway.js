@@ -5,7 +5,6 @@ function Midway() {
 	$(".centerHorizontal").css({
 		'display' : 'inline',
 		'position' : 'absolute',
-		'top' : '50%',
 		'left' : '50%'
 	});
 
@@ -13,7 +12,6 @@ function Midway() {
 		'display' : 'inline',
 		'position' : 'absolute',
 		'top' : '50%',
-		'left' : '50%'
 	});
 }
 
