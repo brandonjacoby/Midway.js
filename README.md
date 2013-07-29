@@ -5,14 +5,16 @@ Midway.js makes it super easy to automatically center the responsive elements on
 
 ##Usage
 
-Place the following right before </head>
+1. Place the following right before </head>
 ``` html
 <script type="text/javascript" src="midway.min.js"></script>
 ```
 
-Depending on if you want your element to be centered horizontally, vertically, or both, add the following classes.
+2. Add the class `midway-horizontal` and/or `midway-vertical` to center vertically, horizontally, or both.
+
+In use:
 ``` html
-<div class="centerHorizontal centerVertical"></div>
+<div class="midway-horizontal midway"></div>
 ```
 
 ##Release Notes
@@ -22,3 +24,8 @@ Depending on if you want your element to be centered horizontally, vertically, o
 - Midway.js now works with all elements, all the time! No more pesky bugs that would cause the element to be uncentered until you resize the browser.
 - Other minor bug fixes.
 
+###v1.2
+- Fixed bug in which centering breaks with more than one element being centered the same way.
+- Classes renamed from `centerVertical` to `midway-vertical` and `centerHorizontal` to `midway-horizontal`.
+- Small performance improvement.
+- Demo file added.
