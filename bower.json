@@ -2,12 +2,11 @@
   "name": "bootstrap",
   "version": "1.2.0",
   "main": [
-    "./midway.js",
+    "./midway.js"
   ],
   "ignore": [
     "**/.*",
-    "demo.html",
-    "CONTRIBUTING.md",
+    "demo.html"
   ],
   "dependencies": {
     "jquery": ">= 1.9.0"
