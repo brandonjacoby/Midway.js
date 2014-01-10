@@ -1,6 +1,6 @@
 function Midway(){
-	var $centerHorizontal = $('.midway-horizontal'),
-		$centerVertical = $('.midway-vertical');
+	var $centerHorizontal = $('.centerHorizontal, .midway-horizontal'),
+		$centerVertical = $('.centerVertical, .midway-vertical');
 
 	$centerHorizontal.each(function(){
 		$(this).css('marginLeft', -$(this).outerWidth()/2);
