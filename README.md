@@ -7,7 +7,7 @@ Midway.js makes it super easy to automatically center the responsive elements on
 
 1. Place the following right before </head>
 ``` html
-<script type="text/javascript" src="midway.min.js"></script>
+<script type="text/javascript" src="Midway.min.js"></script>
 ```
 
 2. Add the class `midway-horizontal` and/or `midway-vertical` to center vertically, horizontally, or both.
