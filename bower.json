@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap",
+  "version": "1.2.0",
+  "main": [
+    "./midway.js",
+  ],
+  "ignore": [
+    "**/.*",
+    "demo.html",
+    "CONTRIBUTING.md",
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}
