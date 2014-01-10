@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "midway.js",
   "version": "1.2.0",
   "main": [
     "./midway.js"
